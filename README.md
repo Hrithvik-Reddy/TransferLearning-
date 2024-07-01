@@ -1,2 +1,11 @@
 # TransferLearning-
 Transfer Learning Using VGG-16 with MNIST dataset
+In this study, we explored how combining advanced convolutional neural networks (CNNs) with traditional machine learning classifiers could improve handwriting recognition accuracy on the MNIST dataset. We specifically used VGG-16 and VGG-19 architectures for feature extraction and then applied Support Vector Machine (SVM), Random Forest, and Decision Tree algorithms for classification.
+
+Our results show that using VGG-16 and VGG-19 models for feature extraction, followed by classification with traditional machine learning algorithms, significantly enhances handwriting recognition performance. Among the classifiers, Random Forest consistently achieved the highest accuracy, with VGG-16 at 89.43% and VGG-19 at 90.39%. The SVM classifier also performed well, especially with VGG-19, achieving an accuracy of 88.08%. Although the Decision Tree classifier had lower accuracy compared to Random Forest and SVM, it still benefited from the rich feature representations extracted by the CNN models.
+
+The reliability and consistency of our results were confirmed by low standard deviations across multiple experimental runs. This indicates that our approach is both stable and effective. The mean accuracy and mean standard deviation metrics further supported the success of our method.
+
+Overall, our findings highlight the potential of hybrid models that combine deep learning and traditional machine learning techniques for complex tasks like handwriting recognition. This approach not only takes advantage of the powerful feature extraction capabilities of CNNs but also benefits from the strengths of traditional classifiers in handling high-dimensional data. By optimizing hyperparameters and carefully selecting model components, we achieved high recognition accuracy while maintaining robustness and stability.
+
+Future work can extend this hybrid methodology to other computer vision tasks with high variability in input data. Additionally, further research can focus on fine-tuning the models and exploring other CNN architectures and machine learning classifiers to further enhance performance. This study paves the way for developing more effective and reliable handwriting recognition systems, contributing to advancements in the field of computer vision and machine learning.
