@@ -1,3 +1,5 @@
+Hello !!
+
 # TransferLearning-
 Transfer Learning Using VGG-16 with MNIST dataset
 In this study, we explored how combining advanced convolutional neural networks (CNNs) with traditional machine learning classifiers could improve handwriting recognition accuracy on the MNIST dataset. We specifically used the VGG-16 architecture for feature extraction and then applied Support Vector Machine (SVM), Random Forest, and Decision Tree algorithms for classification.
